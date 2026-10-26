@@ -1,0 +1,26 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.DS_Store
+Thumbs.db
+terraform-key-pair
+terraform-key-pair.pub
+vpc-key
+vpc-key.pub
+
+# Private keys and credentials
+*.pem
+*.key
+id_rsa
+id_ed25519
+.aws/
+.env
+.env.*
